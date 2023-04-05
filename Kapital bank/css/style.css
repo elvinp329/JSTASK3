@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+}
+
+.top nav a {
+    text-decoration: none;
+    color: black;
+    margin-left: 1.5rem;
+    font-size: 14px;
+}
+
+.top nav button {
+    text-decoration: none;
+    color: red;
+    margin-left: 1rem;
+    font-size: 20px;
+    border: 1px solid #ef3e42;
+    border-radius: 10px;
+    padding: 0.05rem 0.3rem;
+}
+
+.bottomtag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottomtag nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    font-size: 13px;
+    list-style: none;
+    ;
+}
+
+.bottom {
+    background-color: #e8ecf1;
+    padding: 1.5rem;
+}
+
+#Slider {
+    background-color: #e8ecf1;
+    margin-top: 4px;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.pagetwo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+
+.pagetwoimg img {
+    transition: .6s;
+    width: 60%;
+ 
+}
+
+.pagetwoimg{
+    text-align: right;
+    
+}
+.pagetwoimg img:hover {
+    transform: scale(1.2);
+}
+
+.pagetwo .text a{
+    text-decoration: none;
+    color: white;
+    background-color: #ef3e42;
+    padding: 10px 70px;
+   border-radius: 10px;
+    margin-top: 15px;
+    display: inline-block;
+    font-size: 24px;
+ 
+}
+
+
+.allcal {
+    padding: 1rem 3rem;
+    flex-wrap: wrap;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.inputdivone input{
+    margin-bottom: 10px;
+   font-size: 40px;
+   font-weight: 500;
+   color: #ef3e42;
+     
+}
+
+.inputdivtwo input{ 
+    margin-bottom: 10px;
+   font-size: 40px;
+   font-weight: 500;
+   color: #ef3e42;
+}
+
+.inputdivthree input{
+    font-weight: 500;
+    margin-bottom: 10px;
+   font-size: 40px;
+   color: #ef3e42;
+}
+
+.pay{
+ padding: 0 3rem;    
+}
+
+.pay p{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.pay button{
+    background-color: #ef3e42;
+    text-decoration: none;
+    padding:  0.8rem 7rem;
+    margin-top: 40px;
+    color: #e8ecf1;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
